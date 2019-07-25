@@ -1,0 +1,32 @@
+.header{
+    /*background: url("../images/banner.png") no-repeat 100% 100%;*/
+}
+.header img{
+    width: 100%;
+    position: relative;
+}
+.header .nav{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.header .nav .layui-nav{
+    background: none;
+    color:#0C0C0C;
+    text-align: right;
+}
+.header .nav .layui-nav a{
+    color:#3a3a3a;
+    font-size: 25px;
+}
+.header .nav .layui-nav .layui-nav-child a{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+

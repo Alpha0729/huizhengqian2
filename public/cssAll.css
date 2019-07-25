@@ -1,0 +1,101 @@
+::selection {
+    background:#cf101c;
+    color:#fff;
+}
+.content{
+    margin: 15px 0;
+}
+
+.skin_bg{
+    background-color: #393D49;
+}
+iframe{
+    display: block;
+    width: 100%;
+    border: none;
+}
+.margin_top10{
+    margin-top: 10px;
+}
+.margin_top20{
+    margin-top: 20px;
+}
+.margin_top30{
+    margin-top: 30px;
+}
+.margin_top60{
+    margin-top: 60px;
+}
+.title_h2{
+    margin: 20px 0;
+    padding-left:10px;
+    border-left:4px solid #cf101c;
+    color:#333;
+    text-align: left;
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+}
+.hr{
+    background-color: #cf101c;
+    height: 1px;
+}
+.hr2{
+    border-top:1px dotted #ccc;
+}
+.title_bg{
+    background-color: #f4d4d4;
+    border-radius: 8px 8px 0 0;
+    padding:20px;
+}
+.color_cf{
+    color:#cf101c;
+}
+.text_c{
+    text-align: center;
+}
+
+
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{
+    position: absolute;
+    left: 0;
+    height: 5px;
+    background-color: #cf101c;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.layui-nav .layui-nav-child dd.layui-this a, .layui-nav-child dd.layui-this{
+    background-color: #cf101c;
+}
+/*置顶*/
+#top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right:80px ;
+    bottom: 80px;
+    background-color: #9f9f9f;
+    padding: 1px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 3px;
+    -webkit-transition: all .3s;
+    display: none;
+}
+#top i{
+    color:#fff;
+    font-size:50px;
+    text-align: center;
+    line-height: 50px;
+}
+#top:hover{
+    background-color: #666;
+}
+a:hover{
+    text-decoration:underline;
+}
+.img_100{
+    width: 100px;
+}
+
+
