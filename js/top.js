@@ -11,7 +11,6 @@ window.onload=function () {
                 clearInterval(timer);
                 oTop.style.display="none";
             }
-            console.log(oS)
         },30)
 
     }
@@ -39,3 +38,11 @@ window.onload=function () {
         setInter();
     });
 };
+
+
+
+
+
+
+
+

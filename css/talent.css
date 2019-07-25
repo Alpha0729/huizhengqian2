@@ -1,0 +1,51 @@
+.header{
+    position: relative;
+}
+.header .header_title{
+    position: absolute;
+    right: 120px;
+    bottom: 30%;
+}
+.header .header_title h2{
+    font-size: 72px;
+}
+.header .header_title p{
+    font-size: 48px;
+}
+
+.content .talent_body{
+    background: url("../images/talent.jpg") no-repeat;
+    padding:76px 0 130px 0;
+    background-size: 100% 100%;
+}
+
+.content .talent_body .talent_body_content p{
+    margin-top: 36px;
+    font-size:16px;
+    line-height: 26px;
+}
+
+.direction{
+    margin-top: -38px;
+    background: #fcfcfc;
+    padding: 60px 20px 40px ;
+    border-radius: 8px;
+}
+
+.direction .direction_body {
+    padding-left: 30px;:
+}
+.direction .direction_body h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.direction .direction_body li{
+    padding: 79px 123px 0px;
+}
+
+.quiet{
+    padding: 38px 0 55px;
+}
+.quiet .quiet_body{
+    margin-top: 30px;
+}

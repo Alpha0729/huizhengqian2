@@ -1,0 +1,31 @@
+.footer{
+    background: #2c757c;
+    color:#fff;
+    padding: 35px 0px 0px;
+}
+.footer .footer_left li{
+    padding:0 50px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.footer .footer_right {
+    text-align: center;
+    margin-top: 0px;
+}
+.footer .footer_right .footer_right_code{
+    display: inline-block;
+}
+.footer .footer_right .footer_right_code span{
+    font-size: 15px;
+    padding: 6px 0;
+    display: inline-block;
+}
+.footer a{
+    color:#fff;
+}
+.footer .icp{
+    margin-top: 20px;
+    font-size: 12px;
+    background: #143538;
+    padding: 16px;
+}

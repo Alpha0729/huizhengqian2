@@ -1,0 +1,110 @@
+.content .about{
+    padding: 34px 0 0 48px;
+}
+
+.content .about .about_title{
+}
+.content .about .about_body{
+    padding:54px 100px 0;
+}
+.content .about .about_body{
+
+}
+.content .company{
+    background: url("../images/row.jpg") no-repeat 100% 100%;
+    padding:78px 20px;
+    margin-top: 50px;
+}
+.content .company .company_title{
+    font-size: 45px;
+}
+.content .company .company_title p{
+    font-size: 20px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.content .company .company_body{
+    width: 708px;
+}
+.content .company .company_body p{
+    margin-top: 27px;
+
+}
+.certificate{
+    margin-top: -35px;
+    background: #fcfcfc;
+    padding:50px 20px;
+}
+.certificate .certificate_body{
+    margin-top: 64px;
+}
+.certificate .certificate_body li{
+    /*margin-top: 130px;*/
+    height: 174px;
+    color:#202528;
+}
+.certificate .certificate_body li h3 span{
+    line-height: 20px;
+    display: inline-block;
+    padding:3px 22px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.certificate .certificate_body li.p_r {
+    padding-right: 62px;
+}
+.certificate .certificate_body li p{
+    margin-top: 22px;
+}
+.team .team_body {
+    padding: 28px 90px 50px;
+
+}
+.trading{
+    background: #fcfcfc;
+}
+.trading .trading_body {
+    margin-top: 20px;
+}
+
+.trading .trading_img {
+    margin-top: 50px;
+}
+
+.album{
+    padding: 56px 0;
+}
+.album .album_title p{
+    margin-top: 10px;
+}
+.album .album_img{
+    margin-top: 56px;
+    opacity:1;
+}
+/*底部最后的图片*/
+.content_footer {
+    background: url("../images/footer_back.jpg") no-repeat;
+    background-size: 100%  100%;
+    font-size: 25px;
+    padding: 130px 0;
+}
+.content_footer h2{
+    font-size: 25px;
+}
+.content_footer p{
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
