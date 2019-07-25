@@ -14,6 +14,8 @@
     background: url("../images/row.jpg") no-repeat 100% 100%;
     padding:78px 20px;
     margin-top: 50px;
+    -webkit-background-size:100% 100%;
+
 }
 .content .company .company_title{
     font-size: 45px;
@@ -24,7 +26,7 @@
     padding-left: 10px;
 }
 .content .company .company_body{
-    width: 708px;
+    width: 508px;
 }
 .content .company .company_body p{
     margin-top: 27px;

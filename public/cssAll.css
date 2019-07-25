@@ -2,6 +2,9 @@
     background:#cf101c;
     color:#fff;
 }
+.layui-container{
+    width: 1920px;
+}
 .content{
     /*margin: 15px 0;*/
 }
