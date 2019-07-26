@@ -8,12 +8,24 @@
     font-size: 15px;
     margin-top: 20px;
 }
+.footer .footer_center{
+
+}
+.footer .footer_center img{
+    padding: 10px 5px;
+    width: 34px;
+}
 .footer .footer_right {
     text-align: center;
     margin-top: 0px;
 }
 .footer .footer_right .footer_right_code{
     display: inline-block;
+    padding-left: 20px;:
+}
+.footer .footer_right .footer_right_code img{
+    width: 80px;
+    display: block;
 }
 .footer .footer_right .footer_right_code span{
     font-size: 15px;

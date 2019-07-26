@@ -3,7 +3,7 @@
     color:#fff;
 }
 .layui-container{
-    width: 1920px;
+    /*width: 1920px;*/
 }
 .content{
     /*margin: 15px 0;*/
@@ -103,7 +103,7 @@ iframe{
     position: absolute;
     left: 0;
     height: 5px;
-    background-color: #cf101c;
+    background: none;
     transition: all .2s;
     -webkit-transition: all .2s;
 }
@@ -139,10 +139,24 @@ iframe{
     text-decoration: none;
 }
 a:hover{
-    text-decoration:underline;
+
 }
 .img_100{
     width: 100%;
 }
-
+.layui-anim-upbit{
+    padding:0;
+    background:none;
+    border:none;
+}
+.header .nav  .layui-nav .layui-nav-child dd{
+    background: #49cad4;
+    margin-top: 2px;
+}
+.header .nav  .layui-nav .layui-nav-child a{
+    color:#fff;
+}
+.layui-nav .layui-nav-child a:hover{
+    background-color: #2c757c;
+}
 
