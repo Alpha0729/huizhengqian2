@@ -26,6 +26,20 @@
     font-size:45px;
 }
 
+.header{
+    position: relative;
+}
+.header .header_title{
+    position: absolute;
+    right: 120px;
+    bottom: 30%;
+}
+.header .header_title h2{
+    font-size: 72px;
+}
+.header .header_title p{
+    font-size: 48px;
+}
 
 
 

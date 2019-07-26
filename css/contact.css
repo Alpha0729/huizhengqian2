@@ -1,0 +1,30 @@
+.content .contact{
+    padding: 104px 80px;
+}
+.content .contact .contact_title{
+    margin-top: 70px;
+}
+.content .contact .contact_title h2{
+    line-height: 100%;
+}
+.content .contact .contact_title .contact_title_header p{
+    line-height: 100%;
+    padding: 12px 15px;
+}
+.content .contact .contact_title h2 span{
+    display: inline-block;
+    border-left:5px solid #cf101c;
+    line-height: 100%;
+    padding-left: 10px;
+}
+.content .contact .contact_title .contact_title_body{
+
+    font-size: 16px;
+    text-align: left;
+    line-height: 45px;
+    padding: 12px 15px;
+    color:#434343;
+}
+.content .contact .contact_right{
+    text-align: center;
+}
