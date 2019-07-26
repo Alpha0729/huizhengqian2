@@ -2,20 +2,14 @@
     padding: 34px 0 0 48px;
 }
 
-.content .about .about_title{
-}
 .content .about .about_body{
     padding:54px 100px 0;
 }
-.content .about .about_body{
-
-}
 .content .company{
-    background: url("../images/row.jpg") no-repeat 100% 100%;
+    background: url("../images/row.jpg") no-repeat;
     padding:78px 20px;
     margin-top: 50px;
-    -webkit-background-size:100% 100%;
-
+    background-size: cover;
 }
 .content .company .company_title{
     font-size: 45px;
