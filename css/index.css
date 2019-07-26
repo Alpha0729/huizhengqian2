@@ -10,20 +10,21 @@
     padding:78px 20px;
     margin-top: 50px;
     background-size: cover;
+    background-position: center 0;
 }
 .content .company .company_title{
-    font-size: 45px;
+    font-size: 18px;
 }
 .content .company .company_title p{
     font-size: 20px;
     margin-top: 15px;
-    padding-left: 10px;
 }
 .content .company .company_body{
-    width: 508px;
+
 }
 .content .company .company_body p{
-    margin-top: 27px;
+    margin-top: 34px;
+    line-height: 24px;
 
 }
 .certificate{
@@ -32,12 +33,12 @@
     padding:50px 20px;
 }
 .certificate .certificate_body{
-    margin-top: 64px;
+
 }
 .certificate .certificate_body li{
     /*margin-top: 130px;*/
-    height: 174px;
     color:#202528;
+    margin-top: 61px;
 }
 .certificate .certificate_body li h3 span{
     line-height: 20px;
@@ -47,14 +48,13 @@
     -moz-border-radius: 6px;
     border-radius: 6px;
 }
-.certificate .certificate_body li.p_r {
-    padding-right: 62px;
-}
 .certificate .certificate_body li p{
     margin-top: 22px;
+    font-size: 14px;
+    padding-right: 62px;
 }
 .team .team_body {
-    padding: 28px 90px 50px;
+    padding: 28px;
 
 }
 .trading{
@@ -66,6 +66,29 @@
 
 .trading .trading_img {
     margin-top: 50px;
+
+}
+
+.trading .trading_img .trading_img_left {
+    background: url("../images/l_1.png") no-repeat;
+    padding: 40px 0;
+}
+.trading .trading_img .trading_img_left .trading_img_left_pd{
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 3px 3px 1px #ccc;
+    left: -20px;
+}
+.trading .trading_img .trading_img_left .trading_img_left_content{
+
+
+
+    border:4px solid #000;
+
+}
+
+.trading .trading_img .trading_img_left div{
+    position: relative;
 }
 
 .album{
@@ -77,21 +100,6 @@
 .album .album_img{
     margin-top: 56px;
     opacity:1;
-}
-/*底部最后的图片*/
-.content_footer {
-    background: url("../images/footer_back.jpg") no-repeat;
-    background-size: 100%  100%;
-    font-size: 25px;
-    padding: 130px 0;
-}
-.content_footer h2{
-    font-size: 25px;
-}
-.content_footer p{
-    font-size: 25px;
-    margin-top: 30px;
-
 }
 
 

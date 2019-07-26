@@ -8,6 +8,12 @@
 .content{
     /*margin: 15px 0;*/
 }
+.text_l{
+    text-align: left;
+}
+.text_r{
+    text-align: right;
+}
 .back_cf{
     background:#cf101c;
 }
@@ -18,13 +24,24 @@
     background: #49cad4;
 }
 .font_20{
-    font-size: 20px;
+    font-size: 18px;
+    padding:12px 0 0 0;
 }
 .font_25{
-    font-size: 25px;
+    font-size: 18px;
+}
+.font_18{
+    font-size: 18px;
+}
+.font_16{
+    font-size: 16px;
+}
+.font_14{
+    font-size: 14px;
+    line-height: 24px;
 }
 .font_45{
-    font-size: 45px;
+    font-size: 24px;
 }
 .skin_bg{
     background-color: #393D49;
@@ -50,7 +67,7 @@ iframe{
     margin-top: 10px;
 }
 .margin_top20{
-    margin-top: 20px;
+    margin-top: 12px;
 }
 .margin_top30{
     margin-top: 30px;
@@ -61,6 +78,11 @@ iframe{
 .font_b{
     font-weight: bold;
 }
+.title_45{
+    font-size:18px;
+    font-weight: bold;
+}
+
 .title_h2{
     margin: 20px 0;
     padding-left:10px;
@@ -76,8 +98,9 @@ iframe{
     padding-left: 12px;
 }
 .title_p{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 15px;
+    font-weight: bold;
 }
 .hr{
     background-color: #cf101c;
@@ -160,3 +183,52 @@ a:hover{
     background-color: #2c757c;
 }
 
+/*公司展示*/
+
+.cy{
+
+    width:100%;
+    margin-top: 67px;
+
+}
+
+.cy .cy_title h1{
+
+    font-size:45px;
+    text-align:center;
+}
+
+.cy .cy_title p{
+
+    margin: 16px 0 0 0;
+    padding-left: 21px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.cy_display{
+    margin-top: 52px;
+}
+.cy_desc p{
+    margin-top: 18px;
+}
+.cy_desc p b{
+    font-size:16px;
+    font-weight: normal;
+    color:#202528;
+}
+.cy_img img{
+    width: 100%;
+}
+.cy_desc{
+    margin-top:26px;
+}
+
+.cy_display ul li{
+    float:left;
+    display:inline;
+}
+.layui-col-space30{
+    margin: 0;
+}

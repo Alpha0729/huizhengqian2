@@ -1,3 +1,17 @@
+/*底部最后的图片*/
+.footer_top {
+    margin-top: 20px;
+    background: url("../images/footer_back.jpg") no-repeat;
+    background-size: 100%  100%;
+    font-size: 25px;
+    padding: 130px 0;
+}
+
+.footer_top p{
+    margin-top: 20px;
+}
+
+/**/
 .footer{
     background: #2c757c;
     color:#fff;
