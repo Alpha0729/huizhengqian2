@@ -1,0 +1,238 @@
+/* CSS Document */
+
+body{
+	
+	margin:0;
+	padding:0;
+	
+	font-family:微软雅黑
+}
+
+.header_one{
+	text-align:center;
+	float:right;
+	position:relative;
+	margin:0 0 0 0;
+	
+}
+
+.header_one h1{
+	
+	font-size:72px;
+
+	
+}
+
+
+.header_one p{
+
+	margin: 16px 0 0 0;
+    font-size: 48px;
+    font-weight: bold;
+	
+	
+	
+}
+
+.out{
+	
+	/*border:1px solid #000;*/
+	
+	width:1920px;	
+	margin:0;
+	padding:0;
+}
+
+.header{
+	
+	width:100%;
+	margin:0px;
+	padding:0px;	
+}
+
+.teach_class{
+	
+	width:100%;
+	height:521px;
+	background-image:url('../images/teach_one.png');
+	background-repeat:round;	
+	
+}
+
+.content{
+	
+	margin:35px 0 !important;	
+	
+}
+
+.teach_cont{
+	
+	width:50%;
+	height:521px;
+	margin-left:10%;
+	float:left;
+	/*background-color:#F00;*/
+	overflow:hidden;
+	
+}
+
+.title_one{
+	
+	width:100%;
+	margin-top:59px;
+}
+
+.teach_cont h1{
+	
+	font-size:45px;
+	
+	
+}
+.teach_cont .title_one p{
+	
+	margin: 16px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+	
+}
+
+
+.content_one{
+	width:100%;
+	
+}
+
+.teach_cont .content_one p{
+	
+	width:722px;
+	margin: 45px 0 0 0;
+    font-size: 18px;
+	line-height:30px;
+   
+}
+
+.primary_class{
+	
+	width: 86.666%;
+    background-color: #069;
+    margin-left: 7%;
+    margin-top: -1.106%;
+}
+
+.primary_img img{
+	
+	width:100%;
+	height:100%;
+	margin-top: -21px;	
+}
+
+
+.primary_one{
+	
+	margin-left: 3.6%;
+   	margin-top: 39px;;
+	position:absolute;
+
+	
+	
+}
+
+.primary_class .primary_one p{
+	
+	margin: 16px 0 0 0;
+	padding-left: 21px;
+    font-size: 20px;
+    font-weight: bold;
+	
+}
+
+.primary_class .primary_one h1{
+	
+	border-left:7px solid #db2d43;
+	height: 41px;;
+	padding-left:25px;
+	font-size:45px;
+	
+}
+
+#title_one{
+	
+	margin-right:25px;
+	margin-top:147px;	
+	
+}
+
+#teach_cont{
+	
+	float:right;
+	width: 43%;
+    margin-top: -8px;
+}
+
+.cy{
+		
+	width:100%;
+	margin-top: 67px;	
+			
+}
+
+.cy .cy_title h1{
+	
+	font-size:45px;
+	text-align:center;
+}
+
+.cy .cy_title p{
+	
+	margin: 16px 0 0 0;
+	padding-left: 21px;
+    font-size: 20px;
+    font-weight: bold;
+	text-align:center;
+}
+
+.cy_display{
+		
+		width:100%;
+			
+}
+.cy_desc p{
+	
+	font-size:20px;
+	line-height:15px;	
+	
+}
+.cy_img{
+	
+	margin:0 0 0 0;
+	
+}
+
+.cy_desc{
+	
+	margin-top:26px;	
+	
+}
+
+
+.cy_desc p{
+	    padding: 18px;
+		color:#202528;
+}
+
+.cy_display {
+	
+	margin-bottom:45px;
+	margin-left:150px;
+	margin-top:59px;
+	
+		
+}
+
+.cy_display ul li{
+	 float:left;
+	 display:inline;
+	 
+	 padding-left:97px;
+	
+}
