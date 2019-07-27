@@ -1,0 +1,39 @@
+.exam .exam_body{
+    background: url("../images/deal.jpg");
+    background-size: cover;
+    color:#fff;
+}
+.exam .exam_body{
+    margin-top: 29px;
+    padding: 90px 0 176px;
+}
+.exam .exam_body h2{
+    line-height: 100%;
+}
+.exam .exam_body p{
+    margin-top: 38px;
+    line-height: 24px;
+
+}
+.exam .exam_content{
+    margin-top: -80px;
+    padding: 54px 20px 24px;
+    background: #fcfcfc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.exam .exam_content .exam_content_body li{
+    padding:0 10px;
+}
+.exam .exam_content .exam_content_body li h3{
+    margin-top: 46px;
+    margin-left: -8px;
+
+}
+.exam .exam_content .exam_content_body li
+p{
+    width: 480px;
+    margin-top: 22px;
+    line-height: 24px;
+}
