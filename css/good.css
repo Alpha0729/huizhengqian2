@@ -1,0 +1,49 @@
+.good .good_body{
+    padding: 60px 0 134px 0;
+    background: url("../images/ood.jpg");
+    background-size:cover ;
+    color:#fff;
+}
+.good .good_body h2{
+    font-size: 20px;
+    line-height: 100%;
+}
+.good .good_body p{
+    margin-top: 39px;
+}
+.good .good_content{
+    background: #fcfcfc;
+    margin-top: -60px;
+    padding: 60px 0 50px 70px;
+    border-radius: 3px;
+}
+.good .good_content h2{
+    font-size: 18px;
+}
+.good .good_content ul li img{
+    width: 68px;
+    height: 68px;
+    margin-top: 3px;
+}
+.good .good_content ul{
+    margin-top:-10px;
+}
+.good .good_content ul li{
+    margin-top: 78px;
+    height: 74px;
+}
+.good .good_content ul li .layui-col-md10{
+    margin-left: 19px;
+    overflow: hidden;
+}
+
+.good .good_content ul li .layui-col-md10 p{
+    margin-top: 19px;
+    line-height: 24px;
+    font-size: 14px;
+    color:#434343;
+    padding-right: 20px;
+}
+
+
+
