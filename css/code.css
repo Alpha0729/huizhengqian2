@@ -1,0 +1,67 @@
+.code_title {
+    margin-top: 28px;
+}
+
+.code_body {
+    margin-top: 28px;
+}
+
+.code_body .code_body_left {
+    padding: 64px 64px;
+}
+
+.code_body .code_body_left p {
+    line-height: 33px;
+    font-size: 14px;
+    color: #434343;
+    margin-top: 30px;
+}
+
+.code_body .code_body_right {
+    text-align: center;
+    line-height: 400px;
+}
+
+.code_programming {
+    background: url("../images/code_back.jpg");
+    padding: 80px  0 166px;
+    color:#fff;
+    text-align: center;
+}
+.code_programming .code_programming_title p{
+    margin-top: 39px;
+    line-height: 24px;
+}
+.code_core {
+    margin-top: -80px;
+    background-color: #fcfcfc;
+    padding: 60px 0 0 80px;
+}
+.code_core .code_core_title h2{
+    margin: 0;
+}
+.code_core .code_core_title p{
+    margin-top: 10px;
+}
+.code_core ul{
+    padding:35px;
+}
+.code_core ul li{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
