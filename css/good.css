@@ -1,8 +1,17 @@
+.good .good_title{
+    margin-top: 34px;
+}
 .good .good_body{
     padding: 60px 0 134px 0;
     background: url("../images/ood.jpg");
     background-size:cover ;
     color:#fff;
+    margin-top: 28px;
+}
+.good .good_body h2 span{
+    padding: 20px 11px;
+    display: inline-block;
+    border-bottom:1px solid #fff;
 }
 .good .good_body h2{
     font-size: 20px;
