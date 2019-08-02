@@ -31,8 +31,8 @@
     position: absolute;
     right: 120px;
     bottom: 30%;
-    text-align: right;
-    padding: 100px 200px 170px 0;
+    /*text-align: right;
+    padding: 100px 200px 170px 0;*/
 }
 .header .header_title h2{
     font-size: 50px;

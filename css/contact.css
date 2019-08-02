@@ -1,8 +1,27 @@
-.content .contact{
-    padding: 104px 80px;
+.content .contact .contact_body{
+    padding: 60px 0 134px 0;
+    background: url("../images/ood.jpg");
+    background-size:cover ;
+    color:#fff;
+    margin-top: 28px;
 }
+.content .contact .contact_body p{
+    line-height: 24px;
+    margin-top: 38px;
+    padding:0 40px;
+}
+.content .contact .contact_sha{
+    margin-top: -50px;
+    background-color: #fcfcfc;
+    padding: 40px 46px;
+}
+.content .contact .contact_sha .img img{
+
+}
+
 .content .contact .contact_title{
     margin-top: 70px;
+
 }
 .content .contact .contact_title h2{
     line-height: 100%;
@@ -24,6 +43,27 @@
     padding: 12px 15px;
     color:#434343;
 }
+.content .contact .contact_title .contact_title_body p{
+    line-height: 44px;
+}
+
+.content .contact .contact_input{
+    padding: 30px 0;
+    background-color: #fcfcfc;
+}
+
 .content .contact .contact_right{
     text-align: center;
+}
+.layui-form-pane .layui-form-label{
+    width: 124px;
+}
+.layui-form-pane .layui-input-block{
+    margin-left: 124px;
+}
+.content .contact .input_top{
+    margin-top: 30px;
+}
+.content .contact .input_top .layui-input-block{
+    padding-right: 30px;
 }

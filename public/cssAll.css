@@ -42,6 +42,9 @@ p {
 .text_20 {
     font-size: 20px;
 }
+.pd_tb{
+    padding: 24px 0;
+}
 
 .margin_tb {
     margin: 14px 0;
