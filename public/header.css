@@ -1,5 +1,6 @@
 .header{
-    /*background: url("../images/banner.png") no-repeat 100% 100%;*/
+    /*background: url("../images/nanner12.jpg") no-repeat;
+    background-size: cover;*/
 }
 .header img{
     width: 100%;
@@ -30,12 +31,15 @@
     position: absolute;
     right: 120px;
     bottom: 30%;
+    text-align: right;
+    padding: 100px 200px 170px 0;
 }
 .header .header_title h2{
     font-size: 50px;
 }
 .header .header_title p{
     font-size: 40px;
+    margin-top: 6px;
 }
 
 
