@@ -319,3 +319,23 @@ a:hover {
 .layui-col-space30 {
     margin: 0;
 }
+/*弹出*/
+
+#now{
+    position: fixed;
+    top:200px;
+    z-index: 999;
+    right:0;
+    transition: .3s all;
+    -webkit-animation: mymove 2s;
+    animation-iteration-count: infinite;
+    background-color: #cf101c;
+}
+@keyframes mymove {
+    from{color:#000;}
+    to{color:#fff;}
+}
+#letter{
+    display: none;
+    padding:20px;
+}

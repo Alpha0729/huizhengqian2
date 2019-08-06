@@ -245,9 +245,48 @@
 </div>
 <!--顶部返回-->
 <div id="top"></div>
+<div>
+    <div id="now" class="layui-btn layui-btn-danger">在线咨询</div>
+    <div id="letter">
+        <form class="layui-form layui-form-pane layui-row" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">姓名</label>
+                <div class="layui-input-block">
+                    <input class="layui-input" name="" placeholder="请出入姓名" type="text" >
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">电话</label>
+                <div class="layui-input-block">
+                    <input type="text" name="title" required="" lay-verify="required|phone|number" placeholder="请输入电话" autocomplete="off" class="layui-input layui-form-danger" lay-reqText="必填">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">地址</label>
+                <div class="layui-input-block">
+                    <input class="layui-input" name="" placeholder="请输入住址" type="text" >
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <textarea class="layui-textarea" placeholder="您有什么想对我们说的？" ></textarea>
+                </div>
+            </div>
+            <div class=" layui-bnt-container">
+                <button class="layui-btn" sb lay-filter="'">提交</button>
+                <!--<input class="layui-btn " type="submit">-->
+
+                <!--<input class="layui-btn layui-col-md6" type="button" value="重置">-->
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
 <script type="text/javascript" src="./js/jquery.min.js"></script>
 <script type="text/javascript" src="./layui/layui.all.js"></script>
 <script type="text/javascript" src="js/layui.js"></script>
 <script type="text/javascript" src="./js/top.js"></script>
+
