@@ -339,3 +339,14 @@ a:hover {
     display: none;
     padding:20px;
 }
+#letter{
+    display: block;
+    padding:20px;
+    background-color: #fff;
+}
+
+.border-radius{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
