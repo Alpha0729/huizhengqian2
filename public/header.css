@@ -1,6 +1,6 @@
 .header{
-    /*background: url("../images/nanner12.jpg") no-repeat;
-    background-size: cover;*/
+    background-size: cover;
+    height: 800px;
 }
 .header img{
     width: 100%;
@@ -17,7 +17,7 @@
     text-align: right;
 }
 .header .nav .layui-nav a{
-    color:#3a3a3a;
+    color:#fff;
     font-size: 18px;
 }
 .header .nav .layui-nav .layui-nav-child a{
@@ -30,9 +30,7 @@
 .header .header_title{
     position: absolute;
     right: 120px;
-    bottom: 30%;
-    /*text-align: right;
-    padding: 100px 200px 170px 0;*/
+    bottom: 38%;
 }
 .header .header_title h2{
     font-size: 50px;
