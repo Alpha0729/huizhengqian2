@@ -14,8 +14,8 @@
 /**/
 .footer{
     background: #2c757c;
-    color:#fff;
-    padding: 35px 0px 0px;
+    color:#e5e3e3;
+    padding: 20px 0px 0px;
 }
 .footer .footer_left li{
     /*padding:0 50px;*/
@@ -31,7 +31,6 @@
 }
 .footer .footer_right {
     text-align: center;
-    margin-top: 0px;
 }
 .footer .footer_right .footer_right_code{
     display: inline-block;
@@ -58,3 +57,8 @@
 .footer .icp p{
     line-height: 20px;
 }
+.color_icp{
+    color:#e5e3e3;
+    color:#e5e3e3;
+}
+

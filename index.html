@@ -8,17 +8,13 @@
     <link rel="stylesheet" href="./public/header.css">
     <link rel="stylesheet" href="./public/footer.css">
     <link rel="stylesheet" href="./public/cssAll.css">
-    <link rel="stylesheet" href="./public/media.css">
-    <!---->
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./public/media.css">
 </head>
-<style>
 
-</style>
 <body style="">
 <div>
-    <div class="header" style="background: url('/images/banner.jpg') no-repeat;">
-       <!-- <img src="images/banner.jpg" alt="">-->
+    <div class="header" style="background: url('./images/banner.jpg') no-repeat;background-size: cover;height: 800px;">
         <div class="nav">
             <ul class="layui-nav">
                 <li class="layui-nav-item"><a href="javaScript:;">首页</a></li>
@@ -44,11 +40,17 @@
                 </li>
                 <li class="layui-nav-item"><a href="./html/contact.html">联系我们</a></li>
             </ul>
-
         </div>
-        <div class="header_title font_b text_c">
-            <h2 class="font_b"><span class="color_cf">C</span>ontact us</h2>
-            <p>联系我们</p>
+        <div class="header_content layui-container layui-row">
+            <div class="header_content_body">
+                <h2 class="font_b font_30 color_fff">交易领域的黄埔军校</h2>
+                <div class="layui-col-xs12">
+                    <p class="layui-col-xs6">“汇正乾”在未来将“深耕细作”，分设层级不同的教学班级，梯队式的教学，金融职业教育、证券交易培训为公司核心业务，以成熟的教育团队、完善的教学体制，培养具备国际金融视野的金融人才</p>
+                </div>
+                <div class="layui-col-xs6 margin_top30">
+                    <button class="layui-btn"><a class="color_fff" href="" title="加入我们">查看更多</a></button>
+                </div>
+            </div>
         </div>
     </div>
     <div class="content">
@@ -57,9 +59,29 @@
                 <span class="color_cf ">About</span><b> · </b>汇正乾
                 <p class="font_20 font_b">教育优势</p>
             </div>
-            <div class="about_body layui-container">
-                <img class="img_100" src="images/us.png" alt="">
-            </div>
+            <ul class="about_body text_c layui-container layui-row">
+                <!--<img class="img_100" src="images/us.png" alt="">-->
+                <li class="layui-col-xs4 text_c">
+                    <img src="./icon/b_1.png" alt="">
+                    <p class="margin_t20"><b>专业的教学理念</b></p>
+                </li>
+                <li class="layui-col-xs4 text_c">
+                    <img src="./icon/b_2.png" alt="">
+                    <p class="margin_t20"><b>完善的教育体系</b></p>
+                </li>
+                <li class="layui-col-xs4 text_c">
+                    <img src="./icon/b_3.png" alt="">
+                    <p class="margin_t20"><b>丰富的教学成就</b></p>
+                </li>
+                <li class="layui-col-xs4 layui-col-xs-offset2 text_c margin_top60">
+                    <img src="./icon/b_4.png" alt="">
+                    <p class="margin_t20"><b>丰富的教学经验</b></p>
+                </li>
+                <li class="layui-col-xs4 text_c margin_top60">
+                    <img src="./icon/b_5.png" alt="">
+                    <p class="margin_t20"><b>专业的教学团队</b></p>
+                </li>
+            </ul>
         </div>
         <div class="company ">
             <div class="layui-container layui-row ">
@@ -127,21 +149,7 @@
                     量化交易是指以先进的数学模型替代人为的主观判断，利用计算机技术从庞大的历史数据中海选能带来超额收益的多种"大概率"事件以制定策略，极大地减少了投资者情绪波动的影响，避免在市场极度狂热或悲观的情况下作出非理性的投资决策。
                 </div>
                 <div class="trading_img layui-row">
-                   <!-- <div class="trading_img_left layui-col-md6 layui-col-xs12">
-                        <div class="trading_img_left_pd layui-col-md4  layui-col-xs5">
-                            <div class="trading_img_left_content ">
-                                <p>Quantitative trading system design</p>
-                                <p>量化交易系统设计</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="trading_img_left layui-col-md6 layui-col-xs12">
-                        <div class="trading_img_left_content layui-col-md4  layui-col-xs5">
-                            <p>Quantitative trading system design</p>
-                            <p>量化交易系统设计</p>
-                        </div>
-                    </div>-->
-                     <img class="img_100" src="images/zd.png" alt="">
+                    <img class="img_100" src="images/zd.png" alt="">
                 </div>
             </div>
         </div>
@@ -187,13 +195,13 @@
     </div>
     <div class="footer_top color_fff layui-row">
         <div class="layui-container layui-row font_b">
-            <div class="layui-col-md6 content_footer_left font_18">
+            <div class="layui-col-xs6 content_footer_left font_18">
                 <h2 class="font_18">
                     We are serious about Education <span class="color_cf">E</span>ducation
                 </h2>
                 <p>关于教育我们是权威的</p>
             </div>
-            <div class="layui-col-md6 content_footer_right text_r font_18">
+            <div class="layui-col-xs6 content_footer_right text_r font_18">
                 <h2 class="font_18">
                     We are serious about Education<span class="color_cf">P</span>rofessional
                 </h2>
@@ -203,8 +211,8 @@
     </div>
     <div class="footer">
 
-        <div class="layui-container layui-row">
-            <ul class="footer_left layui-col-md7 layui-col-xs12">
+        <div class="layui-container layui-row text_c">
+            <ul class="footer_left layui-col-md7 layui-col-xs12 margin_top15">
                 <li class="layui-col-md3 layui-col-xs3"><a href="#:;">关于我们</a></li>
                 <li class="layui-col-md3 layui-col-xs3"><a href="#:;">免责声明</a></li>
                 <li class="layui-col-md3 layui-col-xs3"><a href="#:;">隐私政策</a></li>
@@ -213,7 +221,7 @@
                 <li class="layui-col-md3 layui-col-xs3"><a href="#:;">侵权申请</a></li>
                 <li class="layui-col-md3 layui-col-xs3"><a href="#:;">支持我们</a></li>
             </ul>
-            <ul class="footer_center layui-col-md3 layui-col-xs12">
+            <ul class="footer_center layui-col-md3 layui-col-xs8 margin_top15">
                 <li class="layui-col-md3 layui-col-xs3">
                     <img src="icon/xinlang.png" alt="">
                 </li>
@@ -233,7 +241,7 @@
                     <img src="icon/zh.png" alt="">
                 </li>
             </ul>
-            <div class="footer_right layui-col-md2 layui-col-xs12 text_c">
+            <div class="margin_top30 footer_right layui-col-md2 layui-col-xs4 text_c">
                 <div class="footer_right_code ">
                     <img class="img_100" src="images/code_3d.jpg" alt="">
                     <span>微信公众号</span>
@@ -244,7 +252,7 @@
             <p>Copyright © 2019-2020 HuiZhengQian. All Rights Reserved | 版权所有 | 河北汇正乾教育咨询有限公司
             </p>
             <p class="">
-                <a target="_blank" href="http://beian.miit.gov.cn">冀ICP备19018194号-1</a>
+                <a class="color_icp" target="_blank" href="http://beian.miit.gov.cn">冀ICP备19018194号-1</a>
             </p>
         </div>
     </div>
@@ -258,25 +266,26 @@
             <div class="layui-form-item">
                 <label class="layui-form-label">姓名</label>
                 <div class="layui-input-block">
-                    <input class="layui-input" name="" placeholder="请出入姓名" type="text" >
+                    <input class="layui-input" name="" placeholder="请出入姓名" type="text">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">电话</label>
                 <div class="layui-input-block">
-                    <input type="text" name="title" required="" lay-verify="required|phone|number" placeholder="请输入电话" autocomplete="off" class="layui-input layui-form-danger" lay-reqText="必填">
+                    <input type="text" name="title" required="" lay-verify="required|phone|number" placeholder="请输入电话"
+                           autocomplete="off" class="layui-input layui-form-danger" lay-reqText="必填">
                 </div>
             </div>
             <div class="layui-form-item">
                 <label class="layui-form-label">地址</label>
                 <div class="layui-input-block">
-                    <input class="layui-input" name="" placeholder="请输入住址" type="text" >
+                    <input class="layui-input" name="" placeholder="请输入住址" type="text">
                 </div>
             </div>
             <div class="layui-form-item layui-form-text">
                 <label class="layui-form-label">备注</label>
                 <div class="layui-input-block">
-                    <textarea class="layui-textarea" placeholder="您有什么想对我们说的？" ></textarea>
+                    <textarea class="layui-textarea" placeholder="您有什么想对我们说的？"></textarea>
                 </div>
             </div>
             <div class=" layui-bnt-container">

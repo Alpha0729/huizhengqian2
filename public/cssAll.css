@@ -77,6 +77,10 @@ p {
     font-size: 14px;
     line-height: 24px;
 }
+.font_30 {
+    font-size: 30px;
+}
+
 
 .font_45 {
     font-size: 24px;
@@ -116,9 +120,15 @@ iframe {
 .margin_top10 {
     margin-top: 10px;
 }
+.margin_top15 {
+    margin-top: 15px;
+}
 
 .margin_top20 {
     margin-top: 12px;
+}
+.margin_t20 {
+    margin-top:20px;
 }
 
 .margin_top30 {

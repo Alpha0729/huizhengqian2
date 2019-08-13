@@ -1,8 +1,7 @@
 .header{
-    background-size: cover;
-    height: 800px;
+    height: 400px;
 }
-.header img{
+/*.header img{
     width: 100%;
     position: relative;
 }
@@ -10,6 +9,9 @@
     position: absolute;
     right: 30px;
     top: 20px;
+}*/
+.header .nav{
+    padding: 10px;
 }
 .header .nav .layui-nav{
     background: none;
@@ -23,21 +25,38 @@
 .header .nav .layui-nav .layui-nav-child a{
     font-size: 18px;
 }
-
+/**/
 .header{
+    overflow: hidden;
     position: relative;
 }
 .header .header_title{
-    position: absolute;
-    right: 120px;
-    bottom: 38%;
+    color:#fff;
+    margin-top: 80px;
 }
 .header .header_title h2{
-    font-size: 50px;
+    font-size: 30px;
+
 }
 .header .header_title p{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 6px;
+}
+/**/
+.header_content{
+    margin-top: 15%;
+    color:#fff;
+}
+.header_content .header_content_body{
+    margin-left: 30px;
+}
+.header_content p{
+    margin-top: 26px;
+
+    line-height: 24px;
+}
+.header_content .layui-btn{
+    background-color: #2c757c;
 }
 
 

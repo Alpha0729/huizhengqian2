@@ -4,6 +4,12 @@
 
 .content .about .about_body{
     padding:54px 100px 0;
+    font-size: 16px;
+}
+.content .about .about_body .about_body_img{
+    /*width: 64px;
+    height: 64px;
+    background: url("../icon/xuebi.png");*/
 }
 .content .company{
     background: url("../images/row.jpg") no-repeat;
@@ -52,6 +58,7 @@
     margin-top: 22px;
     font-size: 14px;
     padding-right: 62px;
+    line-height: 24px;
 }
 .team .team_body {
     padding: 28px;

@@ -85,9 +85,11 @@
 .primary_class{
 
 }
-
+.primary_img{
+    text-align: center;
+}
 .primary_img img{
-	width:100%;
+	width:70%;
 	height:100%;
 }
 
