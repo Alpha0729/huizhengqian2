@@ -4,7 +4,7 @@ $(document).ready(function () {
         "    height: 54px;\n" +
         "    position: fixed;\n" +
         "    right:80px ;\n" +
-        "    bottom: 76px;\n" +
+        "    bottom: 72px;\n" +
         "    background-color: #49cad4;\n" +
         "    padding: 1px;\n" +
         "    display: none;\n" +

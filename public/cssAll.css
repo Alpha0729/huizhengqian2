@@ -227,9 +227,6 @@ iframe {
     bottom: 80px;
     background-color: #1d6168;
     padding: 1px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 3px;
     -webkit-transition: all .3s;
     display: none;
 }
@@ -372,9 +369,8 @@ a:hover {
     height: 46px;
     position: fixed;
     right:80px ;
-    bottom: 136px;
+    bottom: 134px;
     background-color: #49cad4;
-
     -webkit-transition: all .3s;
     padding:5px;
     line-height: 50px;
@@ -382,4 +378,22 @@ a:hover {
 #code img{
     width: 100%;
     height: 100%;
+}
+#code .code_float{
+    width: 107px;
+    background-color: #49cad4;
+    position: relative;
+    left: -140px;
+    top: -117px;
+    padding: 10px;
+    display: none;
+}
+#code .code_float p{
+    text-align: center;
+    margin-top: 10px;
+    color:#fff;
+    font-weight: bold;
+}
+#code:hover#code .code_float{
+    display: block;
 }
