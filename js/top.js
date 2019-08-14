@@ -1,16 +1,12 @@
 $(document).ready(function () {
     $("#top").append("<style>#top{\n" +
-        "    width: 50px;\n" +
-        "    height: 50px;\n" +
+        "    width: 54px;\n" +
+        "    height: 54px;\n" +
         "    position: fixed;\n" +
         "    right:80px ;\n" +
-        "    bottom: 80px;\n" +
-        "    background-color: #1d6168;\n" +
+        "    bottom: 76px;\n" +
+        "    background-color: #49cad4;\n" +
         "    padding: 1px;\n" +
-        "    -webkit-border-radius: 50%;\n" +
-        "    -moz-border-radius: 50%;\n" +
-        "    border-radius: 3px;\n" +
-        "    -webkit-transition: all .3s;\n" +
         "    display: none;\n" +
         "}\n" +
         "#top i{\n" +
@@ -20,7 +16,7 @@ $(document).ready(function () {
         "    line-height: 50px;\n" +
         "}\n" +
         "#top:hover{\n" +
-        "    background-color: #104b51;\n" +
+        "    background-color: #38B6D4;\n" +
         "    text-decoration: none;\n" +
         "}\n" +
         "#top a:hover{\n" +
